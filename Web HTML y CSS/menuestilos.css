@@ -1,0 +1,55 @@
+body{
+    background-color: #151515;
+}
+
+#div-logo{
+    display: flex;
+    justify-content: flex-start;
+}
+
+#divcero{
+    justify-content: centere;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.achetres{
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    color: #E9B410;
+}
+
+p{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+aside {
+    /*para que las imagenes se acomoden en columna*/
+    display: flex;
+    flex-direction: column; 
+}
+aside img { 
+    margin-bottom: 5px;
+    
+}
+
+
+
+table{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: white; 
+}
+
+td{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.precio{
+    padding-left: 40px;
+}
+
