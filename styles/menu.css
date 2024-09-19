@@ -11,7 +11,10 @@ body{
     justify-content: centere;
     display: flex;
     flex-direction: row;
+    padding: 50px;
 }
+
+
 
 
 .achetres{
@@ -28,6 +31,7 @@ p{
 
 aside {
     /*para que las imagenes se acomoden en columna*/
+    padding-left: 80px;
     display: flex;
     flex-direction: column; 
 }
@@ -35,8 +39,6 @@ aside img {
     margin-bottom: 5px;
     
 }
-
-
 
 table{
     font-size: 16px;
