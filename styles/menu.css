@@ -8,14 +8,11 @@ body{
 }
 
 #divcero{
-    justify-content: centere;
+    justify-content: center;
     display: flex;
     flex-direction: row;
     padding: 50px;
 }
-
-
-
 
 .achetres{
     font-size: 25px;
@@ -23,21 +20,15 @@ body{
     color: #E9B410;
 }
 
-p{
-    font-size: 16px;
-    font-family: 'Roboto', sans-serif;
-    color: white;
-}
-
 aside {
     /*para que las imagenes se acomoden en columna*/
     padding-left: 80px;
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
+    justify-content: center; 
 }
 aside img { 
     margin-bottom: 5px;
-    
 }
 
 table{
